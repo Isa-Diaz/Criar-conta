@@ -1,0 +1,104 @@
+body{
+    margin-top: 15px;
+    color: black;
+    background:  linear-gradient(180deg, #ffbfbf 6.68%, rgba(255, 169, 169, 0.966) 59.57%, rgba(250, 141, 141, 0.849) 80%, rgba(216, 148, 148, 0.842) 83.51%, rgba(190, 72, 72, 0.658) 86.51%, rgba(160, 79, 79, 0.651) 103.5%);
+    overflow: hidden;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.create{
+    display: flex;
+    height: 110vh;
+    justify-content: end;
+    align-items: center;
+    margin-right: 200px;
+
+}
+
+.foto{
+    margin-top: 195px;
+    margin-right: 100px;
+    margin-left: 40px;
+}
+
+.conteiner{
+    width: 555px;
+    height: 520px;
+    border-radius: 50px;
+    background: rgba(250, 250, 250, 0.57);
+    box-shadow: 0px 4px 25px 0px rgba(88, 88, 88, 0.22);   
+}
+
+.conteiner form{
+    margin-top: 45px;
+    margin-left: 5x;
+    margin-right: 15px;
+}
+
+.conteiner input{
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 15px;
+    width: 190px;
+    height: 40px;
+    
+    border: none;
+}
+.conteiner p{
+    margin-left: 200px;
+}
+
+form [type="submit"]{
+    margin-left: 165px;
+    border-radius: 15px;
+    margin-top: 65px;
+    width: 185px;
+    height: 45px;
+    background-color: #ff7777;
+    border-color: #ff7777;
+    border: none;
+}
+
+.nome{
+    margin-left: 25px;
+    width: 240px;
+
+}
+
+.email{
+    margin-left: 260px;
+    width: 240px;
+    margin-top: -83px;
+}
+
+.senha{
+    margin-left: 25px;
+    width: 240px;
+    margin-top: 35px;
+}
+
+.confirme{
+    margin-left: 25px;
+    width: 240px;
+    margin-left: 260px;
+    margin-top: -83px;
+}
+
+.letra input{
+    padding-left: 20px;
+}
+
+form label{
+    margin-left: 30px;
+    font-size: 20px;
+}
+h1{
+    margin-left: 165px;
+    margin-top: 50px;
+    font-size: 35px;
+}
